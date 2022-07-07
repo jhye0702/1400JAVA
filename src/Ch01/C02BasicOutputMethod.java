@@ -123,6 +123,9 @@ public class C02BasicOutputMethod {
 		System.out.println(" *****");
 		System.out.println("  ***");
 		System.out.println("   *");
+		
+		
+		System.out.println("GitHub TEST");
 	}
 
 }
