@@ -30,7 +30,7 @@ public class C03음의정수 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.printf("%d\n", (byte)(0b10100000)); //안배운 것.		
+		System.out.printf("%d\n", (byte)(0b11111010)); //안배운 것.		
 		
 	}
 
