@@ -1,5 +1,7 @@
 package Ch04Scanner;
+
 import java.util.Scanner;
+
 public class C01Scanner {
 
 	public static void main(String[] args) {
