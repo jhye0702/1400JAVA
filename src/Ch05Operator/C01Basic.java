@@ -6,7 +6,11 @@ public class C01Basic {
 
 	public static void main(String[] args) {
 		
+		
+		// --------------------------------------------------------
 		// 1. 산술 연산자
+		// --------------------------------------------------------
+		
 //		int a = 10, b = 3, c;
 //		System.out.println("a + b = " + (a+b));
 //		System.out.println("a - b = " + (a-b));
@@ -17,7 +21,9 @@ public class C01Basic {
 //		System.out.println("-a = " + (-a));			// a = -a랑 혼동 주의!
 		
 		
+		// --------------------------------------------------------
 		// 2. 복합대입 연산자
+		// --------------------------------------------------------
 		
 //		int a = 10;
 //		a += 10;	//a = a+10
@@ -30,7 +36,9 @@ public class C01Basic {
 //		System.out.println("a : " +a);
 		
 		
+		// --------------------------------------------------------
 		// 3. 비교 연산자
+		// --------------------------------------------------------
 		// >	>=	<	<=	==	!=
 		
 //		int a = 10, b = 20;
@@ -76,10 +84,10 @@ public class C01Basic {
 		// 후치 연산자 : a++, a--	// 1증가, 1감소  : 다른 연산처리 먼저 한 다음 1증가(or감소)
 		// --------------------------------------------------------
 		
-		int a = 10, b = 20, c, d;
-		c = --a + b--;
-		d = a-- + --b;
-		System.out.printf("%d %d %d %d\n", a, b, c, d);
+//		int a = 10, b = 20, c, d;
+//		c = --a + b--;
+//		d = a-- + --b;
+//		System.out.printf("%d %d %d %d\n", a, b, c, d);
 		
 		
 		// --------------------------------------------------------
@@ -94,17 +102,31 @@ public class C01Basic {
 //		char grade = (score>90)? 'A':'B';
 //		System.out.println("grade : " + grade);
 		
+		//-------------------------------------------------
 		// 문제
+		//-------------------------------------------------
 		// 두 수를 입력받아 큰 수를 출력하세요
+		
+		
 //		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("1 정수: ");
+//		int n1 = sc.nextInt();
+//		System.out.print("2 정수: ");
+//		int n2 = sc.nextInt();
+//		
+//		int result = (n1>n2)? n1:n2;
+//		System.out.println("큰수 : " + result);
+		
+		
 //		System.out.print("첫번째 숫자를 입력하세요: ");
 //		int n1 = sc.nextInt();
 //		System.out.print("두번째 숫자를 입력하세요: ");
 //		int n2 = sc.nextInt();
 //		int n3 = (n1 > n2)? 
 //		System.out.println("두 숫자 중 더 큰 숫자는 " +n3 "입니다");
-//		
-//				
+		
+				
 //		sc.close();
 	}
 

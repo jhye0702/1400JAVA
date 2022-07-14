@@ -3,7 +3,7 @@ package Ch01;
 public class C02BasicOutputMethod {
 
 	public static void main(String[] args) {
-		//System.out : 표준 출력 스트림(해석 : 표준출력장치(모티너)에 데이터 전달)
+		//System.out : 표준 출력 스트림(해석 : 표준출력장치(모니터)에 데이터 전달)
 		
 		//System.out.print() : 콘솔화면에 내용 출력
 		//Escape문자 사용을 통한 개행(줄바꿈)
