@@ -18,6 +18,7 @@ public class C01Scanner {
 		// -> 생성된 Scanner 객체의 위치값을 sc참조변수에 담아 제어함
 		
 		Scanner sc = new Scanner(System.in);
+		
 				
 		System.out.print("첫번째 : ");
 		int num1 = sc.nextInt();

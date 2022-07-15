@@ -161,33 +161,33 @@ public class C01If {
 		// 4. 평균이 60점 미만인가? -> 불합격
 		// 5. 아니라면 -> 합격
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("국, 영, 수 점수 입력: ");
-		int kor = sc.nextInt();
-		int eng = sc.nextInt();
-		int mat = sc.nextInt();
-		double avg = (double)(kor+eng+mat)/3;
-				
-		if(kor<40)
-		{
-			System.out.print("불합격!");
-		}
-		else if(eng<40) 
-		{
-			System.out.print("불합격!");
-		}
-		else if(mat<40) 
-		{
-			System.out.print("불합격!");
-		}
-		else if(avg<60.0) 
-		{
-			System.out.print("불합격!");
-		}
-		else
-		{
-			System.out.print("합격!");
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("국, 영, 수 점수 입력: ");
+//		int kor = sc.nextInt();
+//		int eng = sc.nextInt();
+//		int mat = sc.nextInt();
+//		double avg = (double)(kor+eng+mat)/3;
+//				
+//		if(kor<40)
+//		{
+//			System.out.print("불합격!");
+//		}
+//		else if(eng<40) 
+//		{
+//			System.out.print("불합격!");
+//		}
+//		else if(mat<40) 
+//		{
+//			System.out.print("불합격!");
+//		}
+//		else if(avg<60.0) 
+//		{
+//			System.out.print("불합격!");
+//		}
+//		else
+//		{
+//			System.out.print("합격!");
+//		}
 		
 		//--------------------------------------------------------
 		// 문제
@@ -199,6 +199,29 @@ public class C01If {
 		// 60점 이상이면 'D' 출력
 		// 60점 미만이면 'F' 출력
 		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("평균 점수를 입력하세요 : ");
+//		int avg = sc.nextInt();
+//		if(avg>=90)
+//		{
+//			System.out.print("A");
+//		}
+//		else if(avg>=80)
+//		{
+//			System.out.print("B");
+//		}
+//		else if(avg>=70)
+//		{
+//			System.out.print("C");
+//		}
+//		else if(avg>=60)
+//		{
+//			System.out.print("D");
+//		}	
+//		else
+//		{
+//			System.out.print("F");
+//		}
 		
 		
 		
@@ -206,9 +229,26 @@ public class C01If {
 		// 문제 (강사와 같이 합니다) else-if 사용
 		//--------------------------------------------------------
 		// 세 정수를 입력 받아서 큰 수를 출력하세요 (단순IF문으로만)
-//		Scanner sc = new Scanner(System.in);
-//		System.out.print("정수 입력: ");
-//		int num = sc.nextInt();
+		Scanner sc = new Scanner(System.in);
+		System.out.print("첫번째 정수 입력: ");
+		int n1 = sc.nextInt();
+		System.out.print("두번째 정수 입력: ");
+		int n2 = sc.nextInt();
+		System.out.print("세번째 정수 입력: ");
+		int n3 = sc.nextInt();
+		if(n1>=n2 && n1>=n3); // n1이 제일 큰 경우
+		{
+			System.out.println("큰 수: " + n1);
+		}
+		else if(n2>=n1 && n2>=n3);
+		{
+			System.out.println("큰 수: " + n2);
+		}
+		else
+		{
+			System.out.println("큰 수: " + n3);
+		}
+			
 		
 
 	}
