@@ -3,7 +3,7 @@ package Ch04Scanner;
 import java.util.Scanner; 
 
 //import 단축기
-//모든 inport 경로 설정 : ctrl+shift+o
+//모든 import 경로 설정 : ctrl+shift+o
 //단일 import 경로 설정 : ctrl+shift+m
 
 public class C02Scanner {
