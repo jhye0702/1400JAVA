@@ -236,11 +236,12 @@ public class C01If {
 		int n2 = sc.nextInt();
 		System.out.print("세번째 정수 입력: ");
 		int n3 = sc.nextInt();
-		if(n1>=n2 && n1>=n3); // n1이 제일 큰 경우
+		
+		if(n1>=n2 && n1>=n3) // n1이 제일 큰 경우
 		{
 			System.out.println("큰 수: " + n1);
 		}
-		else if(n2>=n1 && n2>=n3);
+		else if(n2>=n1 && n2>=n3)
 		{
 			System.out.println("큰 수: " + n2);
 		}

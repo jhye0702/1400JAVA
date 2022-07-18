@@ -25,6 +25,20 @@ public class C02진수서식문자 {
 			System.out.printf("16진수로 변환 : %x\n", 173);  //10진수
 			System.out.printf("16진수로 변환 : %x\n", 0255); //8진수
 			System.out.printf("16진수로 변환 : %x\n", 0xAD); //16진수
+			
+			
+			
+			
+			
+			
+			
+			System.out.printf("10진수로 변환 : %d\n", 0b00001111);
+			System.out.printf("10진수로 변환 : %d\n", 173);
+			System.out.printf("8진수로 변환 : %o\n", 0255);
+			System.out.printf("16진수로 변환 : %o\n", 156);
+			
+			
+			
 	}
 
 }

@@ -22,6 +22,7 @@ public class C04실수 {
 		// 리터럴 접미사 f : float 형(4byte)
 		System.out.println(123.12345678987654321);
 		System.out.println(123.12345678987654321F);
+		System.out.println(12.123456789F);
 
 	}
 
