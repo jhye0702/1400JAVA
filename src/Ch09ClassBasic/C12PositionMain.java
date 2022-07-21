@@ -33,6 +33,8 @@ public class C12PositionMain {
 		C12Position ob3 = new C12Position(10,20);
 		C12Position ob4 = new C12Position(10,20,30);
 		
+		ob3.ShowInfo();
+		
 
 	}
 
