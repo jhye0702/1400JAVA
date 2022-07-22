@@ -7,6 +7,8 @@ package Ch10ClassBasic;
 // default : 동일 패키지에 속한 클래스에서만 사용가능 (기본 한정자)
 // private : 현재 클래스에서만 접근가능(정보 은닉)
 
+
+
 class C01Person
 {
 	public String name;
@@ -21,6 +23,9 @@ class C01Person
 		this.age = age;
 		this.weight = weight;
 		this.height = height;
+	}
+	C01Person(){
+		
 	}
 	
 	//Getter(가져오기) and Setter(저장하기)
@@ -64,7 +69,7 @@ public class C01InfoHide {
 		C01Person kim = new C01Person();
 		kim.name = "김상중";
 		//kim.age=11;
-		kim.setAge=(55);
+		kim.setAge(55);
 		System.out.println("age = "+ kim.getAge());
 		
 		C01Person tmp = new C01Person("홍길동", 55,56.8f,177.5);
