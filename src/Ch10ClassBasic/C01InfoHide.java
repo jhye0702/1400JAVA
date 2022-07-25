@@ -60,7 +60,6 @@ class C01Person
 		return "C01Person [name=" + name + ", age=" + age + ", weight=" + weight + ", height=" + height + "]";
 	}
 	
-	
 }
 
 public class C01InfoHide {

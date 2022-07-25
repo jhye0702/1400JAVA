@@ -26,7 +26,7 @@ class C06Simple
 //		y=10;
 //		z=10;
 		this(10,10,10); //인자 3생성자로 넘김
-	}
+		}
 	C06Simple(int x){ // 인자 1
 //		this.x=x;
 //		y=10;

@@ -14,7 +14,7 @@ public class C04Array {
 		System.out.print("열을 입력하세요 : ");
 		int col = sc.nextInt();
 		int arr[][] = new int[row][col];
-		
+	
 		// 2 행, 열 안에 각각의 위치에 값을 입력합니다
 		for(int i=0; i<arr.length; i++)	{
 			for(int j=0; j<arr[i].length; j++){
@@ -36,7 +36,7 @@ public class C04Array {
 				
 		// 4 각 열의 값의 총합을 따로 출력합니다
 		int colsum[] = new int[arr[0].length];
-		for(int j=0; j<arr.length; j++) {
+		for(int j=0; j<arr[0].length; j++) {  //j<arr[j] 를 하면 안됨.
 			for(int i=0; i<arr.length; i++) {
 				colsum[j]+=arr[i][j];
 			}
@@ -49,4 +49,5 @@ public class C04Array {
 		System.out.printf("%d열의 총합 : %d\n", i, colsum[i]);
 		}
 	}
+	
 }

@@ -33,6 +33,6 @@ public class C01Array {
 		{
 			System.out.println(i);
 		}
+	
 	}
-
 }
