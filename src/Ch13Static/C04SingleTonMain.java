@@ -51,3 +51,16 @@ public class C04SingleTonMain {
 	}
 
 }
+
+// 클래스 기본
+// 구성
+//(속성(==필드,멤버변수) / 기능(==멤버메서드)/ 생성자)
+// 오버로딩, 지역변수
+// 정보은닉 (한정자, private -> getter and setter)
+// this (멤버/매개변수 구별, 다른 생성자 호출)
+
+// 배열
+// 일반 자료형 int [] arr = new int[5] ; arr[0]=10;
+// 클래스 자료형 Person [] arr = new Person[5]
+//						arr[0] = new Person();
+//
