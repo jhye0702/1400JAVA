@@ -6,7 +6,7 @@ package Ch10ClassBasic;
 // protected : 동일 패키지에 속한 클래스 or 상속과게에서 하위클래스에서만 접근가능
 // default : 동일 패키지에 속한 클래스에서만 사용가능 (기본 한정자)
 // private : 현재 클래스에서만 접근가능(정보 은닉)
-
+//+는 public -는 private ~은 protected
 
 
 class C01Person
