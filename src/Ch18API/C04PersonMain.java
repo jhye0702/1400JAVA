@@ -26,7 +26,8 @@ class Person{
 	public boolean equals(Object obj) {
 		if(obj instanceof Person) {
 			Person down = (Person)obj;
-			return this.name==down.name && this.id==down.id && this.addr==down.addr;
+//			return this.id==down.id && this.addr==down.addr;
+			return this.id.equals(down.id) && this.addr.equals(down.addr);
 		}
 		return false;
 	}
